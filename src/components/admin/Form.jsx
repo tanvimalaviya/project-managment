@@ -6,7 +6,8 @@ const Form = () => {
     <div className="card-body">
     <div className="mb-3">
       <label htmlFor="exampleInputEmail1" className="form-label">
-        Email address
+        {/* Email address */}
+          NAME
       </label>
       <input
         type="email"
@@ -14,11 +15,11 @@ const Form = () => {
         id="exampleInputEmail1"
         aria-describedby="emailHelp"
       />
-      <div id="emailHelp" className="form-text">
+      {/* <div id="emailHelp" className="form-text">
         We'll never share your email with anyone else.
-      </div>
+      </div> */}
     </div>
-    <div className="mb-3">
+    {/* <div className="mb-3">
       <label htmlFor="exampleInputPassword1" className="form-label">
         Password
       </label>
@@ -27,19 +28,19 @@ const Form = () => {
         className="form-control"
         id="exampleInputPassword1"
       />
-    </div>
-    <div className="input-group mb-3">
+    </div> */}
+    {/* <div className="input-group mb-3">
       <input type="file" className="form-control" id="inputGroupFile02" />
       <label className="input-group-text" htmlFor="inputGroupFile02">
         Upload
       </label>
-    </div>
-    <div className="mb-3 form-check">
+    </div> */}
+    {/* <div className="mb-3 form-check">
       <input type="checkbox" className="form-check-input" id="exampleCheck1" />
       <label className="form-check-label" htmlFor="exampleCheck1">
         Check me out
       </label>
-    </div>
+    </div> */}
   </div>
   <div className="card-body">
   <div className="mb-3">
@@ -66,12 +67,12 @@ const Form = () => {
       id="exampleInputPassword1"
     />
   </div>
-  <div className="input-group mb-3">
+  {/* <div className="input-group mb-3">
     <input type="file" className="form-control" id="inputGroupFile02" />
     <label className="input-group-text" htmlFor="inputGroupFile02">
       Upload
     </label>
-  </div>
+  </div> */}
   <div className="mb-3 form-check">
     <input type="checkbox" className="form-check-input" id="exampleCheck1" />
     <label className="form-check-label" htmlFor="exampleCheck1">

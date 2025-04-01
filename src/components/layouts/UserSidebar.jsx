@@ -1,6 +1,6 @@
 import React from 'react'
 import UserNavbar from './UserNavbar'
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 
 const UserSidebar = () => {
   return (
@@ -50,30 +50,30 @@ const UserSidebar = () => {
               data-accordion="false"
             >
               <li className="nav-item menu-open">
-                <a href="#" className="nav-link active">
+                <Link to="/addproject" className="nav-link active">
                   <i className="nav-icon bi bi-speedometer" />
                   <p>
-                    Dashboard
+                    Add Project
                     <i className="nav-arrow bi bi-chevron-right" />
                   </p>
-                </a>
+                </Link>
                 <ul className="nav nav-treeview">
-                  <li className="nav-item">
-                    <a href="./index.html" className="nav-link active">
+                  {/* <li className="nav-item">
+                    <Link to="/addproject" className="nav-link active">
                       <i className="nav-icon bi bi-circle" />
-                      <p>Dashboard v1</p>
-                    </a>
-                  </li>
+                      <p>Add Project</p>
+                    </Link>
+                  </li> */}
                   <li className="nav-item">
-                    <a href="./index2.html" className="nav-link">
+                    <Link to="/addtask" className="nav-link">
                       <i className="nav-icon bi bi-circle" />
-                      <p>Dashboard v2</p>
-                    </a>
+                      <p>Add Task</p>
+                    </Link>
                   </li>
                   <li className="nav-item">
                     <a href="./index3.html" className="nav-link">
                       <i className="nav-icon bi bi-circle" />
-                      <p>Dashboard v3</p>
+                      <p>reports</p>
                     </a>
                   </li>
                 </ul>
@@ -81,14 +81,14 @@ const UserSidebar = () => {
               <li className="nav-item">
                 <a href="./generate/theme.html" className="nav-link">
                   <i className="nav-icon bi bi-palette" />
-                  <p>Theme Generate</p>
+                  <p>charts</p>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link">
                   <i className="nav-icon bi bi-box-seam-fill" />
                   <p>
-                    Widgets
+                 grsdaxfbgdfvaxZ
                     <i className="nav-arrow bi bi-chevron-right" />
                   </p>
                 </a>
@@ -96,19 +96,19 @@ const UserSidebar = () => {
                   <li className="nav-item">
                     <a href="./widgets/small-box.html" className="nav-link">
                       <i className="nav-icon bi bi-circle" />
-                      <p>Small Box</p>
+                      <p>DTGYUJIO;L</p>
                     </a>
                   </li>
                   <li className="nav-item">
                     <a href="./widgets/info-box.html" className="nav-link">
                       <i className="nav-icon bi bi-circle" />
-                      <p>info Box</p>
+                      <p>ZSDXFCGJHKML</p>
                     </a>
                   </li>
                   <li className="nav-item">
                     <a href="./widgets/cards.html" className="nav-link">
                       <i className="nav-icon bi bi-circle" />
-                      <p>Cards</p>
+                      <p>SDFGHJKKKJUYTR</p>
                     </a>
                   </li>
                 </ul>
@@ -126,3 +126,6 @@ const UserSidebar = () => {
 }
 
 export default UserSidebar
+
+
+
